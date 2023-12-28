@@ -1,4 +1,4 @@
-// $ANTLR 3.4 D:\\Compiler\\docs\\Expr.g 2018-02-18 15:49:37
+// $ANTLR 3.4 D:\\Compiler\\docs\\Expr.g 2018-02-18 14:50:16
 
 import java.util.HashMap;
 
@@ -37,7 +37,7 @@ public class ExprParser extends DebugParser {
 
 
 public static final String[] ruleNames = new String[] {
-    "invalidRule", "expr", "multExpr", "atom", "prog", "stat"
+    "invalidRule", "prog", "stat", "expr", "multExpr", "atom"
 };
 
 public static final boolean[] decisionCanBacktrack = new boolean[] {

@@ -33,7 +33,7 @@ stat:   // evaluate expr and emit result
  *  the addition or subtraction of results from both multExpr references.
  */
 expr returns [int value]
-    :   e=multExpr {$value = $e.value;}
+    :   multExpr
         (   '+' e=multExpr {$value += $e.value;}
         |   '-' e=multExpr {$value -= $e.value;}
         )*
